@@ -1,0 +1,10 @@
+2. Write a function that will take two strings as parameters and will return their concatenation, with a space between it, all in upper case. 
+
+
+<script>
+function text(txt1,txt2){
+		var txt = txt1 + " "+ txt2;
+		return txt.toUpperCase();
+        } 
+document.write(text("happy","testing"))  
+</script>
